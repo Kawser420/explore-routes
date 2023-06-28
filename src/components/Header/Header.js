@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
-
     return (
         <div className='header'>
             <nav>
-                <Link to={'/home'}>Home</Link>
-                <Link to={'/about'}>About</Link>
-                <Link to={'/products'}>Product</Link>
-                <Link to={'/login'}>Login</Link>
+                <Link to={'/'}>Home</Link>
+                <Link to={'home'}>Home</Link>
+                <Link to={'products'}>Products</Link>
+                <Link to={'friends'}>Friends</Link>
+                <Link to={'about'}>About</Link>
             </nav>
-            <h3>this is new</h3>
+            <h2>Common Pages</h2>
         </div>
     );
 };
